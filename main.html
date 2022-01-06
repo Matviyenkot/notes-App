@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Notes</title>
+</head>
+<body>
+    <div class="notes">
+        <div class="notes_header">
+            <div class="properties">
+                Name
+            </div>
+            <div class="properties">
+                Created
+            </div>
+            <div class="properties">
+                Category
+            </div>
+            <div class="properties">
+                Content
+            </div>
+            <div class="properties">
+                Dates
+            </div>
+            <div class="properties">
+                Archive Delete
+            </div>
+        </div>
+
+        <div class="notesList">
+
+                <div class="name">Shopping List</div>
+
+
+                <div class="created">06.01.2022</div>
+
+
+                <div class="category">Idea</div>
+
+
+                <div class="content">Content</div>
+
+
+                <div class="dates">Dates</div>
+
+
+                <div class="options"> Archive Delete</div>
+
+        </div>
+
+
+    </div>
+
+<!--    <div class="addNote">-->
+<!--        <button class="button create_note_btn">Create Note</button>-->
+<!--    </div>-->
+
+
+    <div class="createNote">
+        <form
+                class="add-form d-flex"
+                >
+            <input type="text"
+                   class="form-control new-post-label"
+                   placeholder="Name"
+                   name="name"
+                   id="name"
+            />
+            <input type="date"
+                   class="form-control new-post-label"
+                   placeholder="Current Date"
+                   name="current data"
+                   id="current_data"
+            />
+            <select size="1"  name="categories" id="categories">
+                <option selected disabled>Выберите категорию</option>
+                <option value="Task">Task</option>
+                <option value="Random thought">Random thought</option>
+                <option value="Idea">Idea</option>
+            </select>
+            <input type="text"
+                   class="form-control new-post-label"
+                   placeholder="Content"
+                   name="content"
+                   id="content"
+            />
+            <input type="date"
+                   class="form-control new-post-label"
+                   placeholder="Dates"
+                   name="dates"
+                   id="dates"
+            />
+
+            <button type="submit"
+                    class="btn btn-outline-light"
+            >Добавить</button>
+        </form>
+
+
+    </div>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

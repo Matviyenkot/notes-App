@@ -1,0 +1,30 @@
+.notes_header{
+    width: 90%;
+    background-color: #575454;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    font-size: 16pt;
+    align-items: center;
+}
+
+.notes{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.create_note_btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.notesList{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
